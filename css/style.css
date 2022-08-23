@@ -84,3 +84,44 @@
     border: 1px solid #DADADA;
 }
 /* donate plan section */
+.donate-plan{
+    /* text-align: center; */
+    margin: 20px;
+    padding: 20px;
+}
+.plan-details{
+    text-align: center;
+}
+.plan-details p{
+    margin: 0 40px;
+}
+.plan-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin: 15px;
+}
+.card{  
+    width: 400px;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.card img{
+    margin: 10px 0;
+    display: block;
+}
+.card h3{
+    margin: 10px 0;
+}
+.card1{
+    background-color:#4F9DA6;
+}
+.card2{
+    background-color: #FF5959;
+}
+.card3{
+    background-color: #FFF4D6;
+}
+/* hope section are start */
