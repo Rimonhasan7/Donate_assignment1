@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    transition: 0.8ms;
+    scroll-behavior: smooth;
+}
+
+/* common classes area */
+.title-h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 10px;
+}
+.title-p{
+    padding: 4px;
+    columns: #707070;
+}
+.title-btn{
+    padding: 12px 16px;
+    background-color: #FF5959;
+    border: none;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 900px;
+    color: white;
+    border-radius: 8px;
+}
+/* header section area */
+.header-container{
+    background-image: url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 569px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.header-details{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+/* donate today section */
+.donate-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.donate-details{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.donate-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+.price{
+    background-color: #FAFAFA;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+.price2{
+    background-color: #FFEEEE;
+    padding: 20px 15px;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.donate-amount{
+    text-align: center;
+}
+.donate-amount hr{
+    width: 765px;
+    border: 1px solid #DADADA;
+}
+/* donate plan section */
