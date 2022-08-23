@@ -125,3 +125,25 @@
     background-color: #FFF4D6;
 }
 /* hope section are start */
+.hope-container{
+    margin: 0 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+.hope-img{
+    width: 55%;
+}
+.hope-img img{
+    width: 100%;
+    height: 477px;
+    border-radius: 5px;
+    margin: 15px;
+}
+.hope-details{
+    width: 36%;
+    padding: 5px;
+    margin-right: 50px;
+}
