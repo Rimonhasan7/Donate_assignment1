@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     font-family: 'Poppins', sans-serif;
     padding: 0px;
@@ -128,8 +129,9 @@
 .hope-container{
     margin: 0 20px;
     padding: 20px;
+    margin-bottom: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 50px;
     align-items: center;
 }
@@ -143,7 +145,57 @@
     margin: 15px;
 }
 .hope-details{
-    width: 36%;
+    width: 30%;
     padding: 5px;
-    margin-right: 50px;
+    margin-right: 40px;
+}
+.hope-details p{
+    margin: 10px 0;
+}
+/* updates and subscribe section */
+.updates{
+    text-align: center; 
+    margin: 0 30%;
+}
+.updates h1{
+    margin: 15px;
+}
+/* subscribe  */
+.subscribe{
+    margin: 5% 20%;
+}
+.subscribe-details{
+    background-color: #FFF4D6;
+    border-radius: 7px;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+.divs-button{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input{
+    padding: 10px 14px;
+    font-size: 18px;
+    font-weight: 900px;
+    color: white;
+    border: none;
+}
+.subscribe-btn{
+    padding: 10px 14px;
+    background-color: #FF5959;
+    border: none;
+    font-size: 18px;
+    font-weight: 900px;
+    color: white;
+}
+/* footer area */
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
 }
